@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@600&display=swap');
+
+/* Config. de reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #94568d 40.62%, #8b1f8b85 60.80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+/**/
+
+/* CABEÇALHO */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.7em;
+}
+
+.cabecalho-img {
+    height: 5rem;
+    width: 6rem;
+}
+
+.cabecalho-navbar {
+    display: flex;
+    gap: 6rem;
+}
+
+.cabecalho-menu-link {
+    font-family: 'Sarala', sans-serif;
+    color: rgb(92, 22, 22);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* MAIN Section Principal */
+.principal {
+    margin-bottom: 5rem;
+    border-top: 0.3em double rgb(206, 204, 204);
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.divisao-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo-primario-principal {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    color: rgb(243, 234, 234);
+    margin:  0 4rem 0;
+}
+
+.titulo-secundario-principal {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: rgb(214, 202, 202);
+    margin: 0 0 0 4rem;
+}
+
+.botao-principal {
+    background-color: #fcdafc85;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(63, 43, 97);
+    width: 10rem;
+    height: 4rem;
+    margin: 0 4rem 0;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+.botao-principal:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.principal-img {
+    margin: 4rem;
+    height: 30rem;
+    border-radius: 4rem;
+}
+
+/* MAIN Section Secundário */ 
+.secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.titulo-terciario-sec {
+    border-top: 4px double #ccc;
+    padding-top: 3rem;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    color: rgb(243, 234, 234);
+    margin-bottom: 1rem;
+}
+
+.paragrafo-secundario {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* FOOTER */
+.rodape {
+    padding: 2rem;
+    border-top: 0.3em double #ccc;
+}
+
+.rodape-img {
+    height: 9rem;
+    display: block;
+    margin: 0 auto;
+}
